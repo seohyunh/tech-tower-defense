@@ -1,0 +1,9 @@
+{
+  "name": "Tower 5",
+  "imageName": "towers/tower4.png",
+  "projectileImageName": "projectile1.png",
+  "attack": 80,
+  "attackRate": 1.5,
+  "cost": 70,
+  "isSplashDamage": true
+}

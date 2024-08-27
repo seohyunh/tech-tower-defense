@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="31">
+ <tileset firstgid="1" name="citymap_resize" tilewidth="64" tileheight="64" tilecount="512" columns="32">
+  <image source="citymap_resize.png" width="2048" height="1024"/>
+ </tileset>
+ <tileset firstgid="513" name="td_tilesheet" tilewidth="64" tileheight="64" tilecount="299" columns="23">
+  <image source="../../../../../../../../Downloads/FXGLGames-master/FXGLGames-master/TowerDefense/src/main/resources/assets/levels/tmx/td_tilesheet.png" trans="ffffff" width="1472" height="832"/>
+ </tileset>
+ <layer id="1" name="ground" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwV1YOyGAYAAMEX27bT2LaNNrZt27ZtNbZt27Zts9uZ22+4QAEBAYEJQlCCEZwQhCQUoQlDWMIRnghEJBKRiUJUohGdGMQkFrGJQ1ziEZ8EJCQRiUlCUpKRnL9IQUpSkZo0pCUd6clARjKRmSxkJRvZyUFOcpGbPOQlH/kpQEEKUZgiFKUYxSlBSUpRmjKUpRzl+Zt/qEBFKlGZKlSlGtWpQU1qUZs61KUe9WlAQxrRmCY0pRnNaUFLWtGaNrSlHe3pQEc60ZkudKUb3elBT3rRmz70pR/9GcBABjGYIQxlGMMZwUhGMZoxjGUc45nARCYxmSlMZRrTmcFMZjGbOcxlHvNZwEIW8S+LWcJSlrGcFaxkFatZw1rWsZ4NbGQTm9nCVraxnR3sZBe72cNe9rGfAxzkEIc5wlGOcZwTnOQUpznDWc5xngtc5BKXucJVrnGdG9zkFre5w13ucZ8HPOQRj3nCU57xnBe85BWvecNb3vGeD3zkE5/5wle+8Z0f/OQXv/lDQCARmCAEJRjBCUFIQhGaMIQlHOGJQEQiEZkoRCUa0YlBTGIRmzjEJR7xSUBCEpGYJCQlGcn5ixSkJBWpSUNa0pGeDGQkE5nJQlaykZ0c5CQXuclDXvKRnwIUpBCFKUJRilGcEpSkFKUpQ1nKUZ6/+YcKVKQSlalCVapRnRrUpBa1qUNd6lGfBjSkEY1pQlOa0ZwWtKQVrWlDW9rRng50pBOd6UJXutGdHvSkF73pQ1/60Z8BDGQQgxnCUIYxnBGMZBSjGcNYxjGeCUxkEpOZwlSmMZ0ZzGQWs5nDXOYxnwUsZBH/spglLGUZy1nBSlaxmjWsZR3r2cBGNrGZLWxlG9vZwU52sZs97GUf+znAQQ5xmCMc5RjHOcFJTnGaM5zlHOe5wEUucZkrXOUa17nBTW5xmzvc5R73ecBDHvGYJzzlGc95wUte8Zo3vOUd7/nARz7xmS985Rvf+cFPfvGbP/w//v8Ajz0AEg==
+  </data>
+ </layer>
+ <objectgroup id="2" name="waypoints">
+  <object id="13" name="way1" type="waypoint" x="134.788" y="755.697">
+   <polygon points="-131.552,-11.3891 180.759,-53.3333 381.426,-31.3838 530.748,-54.6667 674.461,-24.436 883.978,-53.1027 1177.31,-58.9478 1331.3,5.71886 1456.63,5.74411 1607.82,23.0774"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="tower_placement">
+  <object id="14" name="tower" type="towerBase" gid="694" x="519.793" y="963.142" width="64" height="64"/>
+  <object id="15" name="tower" type="towerBase" gid="694" x="93.7183" y="649.458" width="64" height="64"/>
+  <object id="16" name="tower" type="towerBase" gid="694" x="290.459" y="965.809" width="64" height="64"/>
+  <object id="17" name="tower" type="towerBase" gid="694" x="93.1259" y="951.809" width="64" height="64"/>
+  <object id="18" name="tower" type="towerBase" gid="694" x="281.885" y="640.051" width="64" height="64"/>
+  <object id="19" name="tower" type="towerBase" gid="694" x="695.793" y="967.142" width="64" height="64"/>
+  <object id="20" name="tower" type="towerBase" gid="694" x="691.793" y="633.142" width="64" height="64"/>
+  <object id="21" name="tower" type="towerBase" gid="694" x="500.459" y="642.476" width="64" height="64"/>
+  <object id="22" name="tower" type="towerBase" gid="694" x="1023.79" y="965.142" width="64" height="64"/>
+  <object id="23" name="tower" type="towerBase" gid="694" x="887.793" y="969.142" width="64" height="64"/>
+  <object id="24" name="tower" type="towerBase" gid="694" x="1019.79" y="643.142" width="64" height="64"/>
+  <object id="25" name="tower" type="towerBase" gid="694" x="1171.79" y="959.142" width="64" height="64"/>
+  <object id="26" name="tower" type="towerBase" gid="694" x="1133.79" y="643.142" width="64" height="64"/>
+  <object id="27" name="tower" type="towerBase" gid="694" x="1387.79" y="957.142" width="64" height="64"/>
+  <object id="28" name="tower" type="towerBase" gid="694" x="1377.33" y="638.667" width="64" height="64"/>
+  <object id="29" name="tower" type="towerBase" gid="694" x="1593.33" y="638.667" width="64" height="64"/>
+  <object id="30" name="tower" type="towerBase" gid="694" x="1594.67" y="960" width="64" height="64"/>
+ </objectgroup>
+ <layer id="4" name="path" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgDAAgAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="decor" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgDAAgAAAE=
+  </data>
+ </layer>
+</map>
